@@ -1,0 +1,17 @@
+[theme]
+base = "dark"
+primaryColor = "#22d3ee"
+backgroundColor = "#0a0f1e"
+secondaryBackgroundColor = "#111a30"
+textColor = "#e6edf7"
+font = "sans serif"
+
+[server]
+headless = true
+# File-uploader limit in MB (Streamlit default is 200).
+# Raised for large PCAP captures; practical ceiling is server RAM since
+# uploads are held in memory during parsing.
+maxUploadSize = 1024
+
+[browser]
+gatherUsageStats = false
